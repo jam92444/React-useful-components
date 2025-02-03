@@ -1,10 +1,12 @@
 import React from 'react'
 import SearchApp from './components/SearchApp'
+import RadioColorSelection from './components/RadioColorSelection'
 
 const App = () => {
   return (
     <div>
-      <SearchApp/>
+      {/* <SearchApp/> */}
+      <RadioColorSelection/>
     </div>
   )
 }
